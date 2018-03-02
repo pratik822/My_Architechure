@@ -23,7 +23,7 @@ public class Listadapter extends BaseAdapter {
     private LayoutInflater inflater;
     private mydatabing binding;
 
-    private Listadapter(Context ctx, List<Project> mylist) {
+    public Listadapter(Context ctx, List<Project> mylist) {
         this.ct = ctx;
         this.my = mylist;
     }
