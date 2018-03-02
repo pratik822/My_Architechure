@@ -51,7 +51,7 @@ public class WebserviceRepo {
             @Override
             public void onFailure(Throwable t) {
                 t.printStackTrace();
-                data.setValue(null);
+                data.postValue(null);
             }
         });
 

@@ -65,18 +65,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public class Myoberver implements LifecycleObserver{
-
-        @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
-        public void connect(){
-            Log.d("status","connected");
-        }
-
-        @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
-        public void disConnect(){
-            Log.d("status","diconnected");
-        }
-
-
-    }
 }
